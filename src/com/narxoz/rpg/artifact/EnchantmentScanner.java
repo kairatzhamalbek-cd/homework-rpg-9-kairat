@@ -18,8 +18,7 @@ public class EnchantmentScanner implements ArtifactVisitor{
 
     @Override
     public void visit(Ring ring) {
-        System.out.println("Ring " + ring.getName() + " grants magic bonus: +" + ring.getMagicBonus());
-    }
+        System.out.println("Ring " + ring.getName() + " grants magic bonus: " + ring.getMagicBonus());    }
 
     @Override
     public void visit(Armor armor) {
